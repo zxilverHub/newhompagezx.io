@@ -132,8 +132,9 @@ main {
 }
 
 
-
 @media (min-width: 500px) {
+    header { padding-top: 5vh ; }
+    main { top: 20vh; }
     .container .web-3 {
         grid-column: span 2;
         grid-row: span 3;
